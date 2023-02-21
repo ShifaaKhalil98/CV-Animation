@@ -1,6 +1,6 @@
 body {
   height: 100%;
-  padding: 10px 20px;
+  padding: 10px 10px;
   font-family: cursive;
   background-color: blueviolet;
   text-align: left;
@@ -30,7 +30,7 @@ a {
   color: black;
 }
 img {
-  border-radius: 100px;
+  border-radius: 50%;
   height: 200px;
   width: 200px;
   border: 1.5px solid rgba(61, 65, 64, 0.5);
@@ -43,7 +43,6 @@ img:hover {
 
 @keyframes rot {
   60% {
-    border-radius: 100px;
     transform: rotate(3000deg);
     height: 300px;
     width: 300px;
