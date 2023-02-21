@@ -7,20 +7,20 @@ body {
   animation: colorful 0.7s;
   animation-iteration-count: infinite;
 }
+.header {
+  margin-left: 50px;
+}
 .content {
   padding-bottom: 20px;
   border-bottom: 3px solid white;
 }
-.header {
-  margin-left: 50px;
-}
 h2 {
   color: white;
 }
-ul li {
+.inline li {
   display: inline;
 }
-li:nth-child(even) {
+.inline li:nth-child(even) {
   margin: 0 20px;
 }
 span {
