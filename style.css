@@ -69,6 +69,6 @@ img:hover {
     background-color: red;
   }
   100% {
-    background-color: blueviolet;
+    background-color: rgb(186, 236, 228);
   }
 }
